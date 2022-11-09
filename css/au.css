@@ -1,0 +1,83 @@
+.banner {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.banner img {
+  display: block;
+  width: 100%;
+}
+
+.bnr-ovrlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5)
+}
+
+.bnr-txt {
+  font-family: header;
+  font-size: 5vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team {
+  margin: 0% 2.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  background: #636B78;
+  height: 50vh;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin: 5% 2.5%;
+  padding: 5% 5%;
+}
+
+.tm-img {
+  margin: 2.5%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  margin: 3%;
+}
+
+.dmv {
+  width: 100%;
+  padding: 1%;
+}
+
+.contact {
+  width: 100%;
+  padding: 1%;
+}
+
+.contact table{
+  table-layout: fixed;
+  width: 100%;
+}
+
+.contact tr, .contact td {
+  width: 100%;
+  padding-right: 2%;
+}
+
+.contact input{
+  width: 100%;
+}
+
+.contact button {
+  background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,58 @@
+.body img {
+  width: 100vw;
+}
+
+.parallax {
+  background-image: url("../assets/building.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax .text {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1% 1%;
+  border: 1px solid #4E504F;
+}
+
+.text p {
+  font-size: 2.3vmin;
+  font-family: body-text;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.features,.promo {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid #626A75;
+  margin: 2% 5%;
+  padding: 1%;
+}
+
+.features button {
+  margin: 2%;
+  font-size: 2.3vmin;
+  position: relative;
+  background-color: #636B78;
+  border: 0px solid #636B78;
+  padding: 1%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s;
+}
+
+.features button:hover {
+  background-color: #4E504F;
+  border: 1px solid #636B78;
+  transition: background-color ease-in-out 0.5s, border ease-in-out 0.5s;
+}
